@@ -1,0 +1,17 @@
+fastapi>=0.110
+uvicorn[standard]>=0.22
+python-multipart
+pydantic>=2
+
+# Core ESRGAN runtime
+torch
+numpy
+opencv-python
+Pillow
+
+# Image quality metrics
+scikit-image
+
+# Build helpers to avoid sdist issues
+setuptools
+wheel
